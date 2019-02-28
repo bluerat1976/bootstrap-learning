@@ -1,0 +1,35 @@
+
+
+.container {
+   
+}  
+.row {
+    border: 3px solid #0285d1;
+} 
+
+[class*="col-"] {
+    padding: 15px;
+   }
+
+   .logo p {
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 28px;
+       font-weight: bold;
+       color: #ac5209;
+   }
+
+   .header div {
+       background-color: #ac5209;
+   }
+   .header a {
+       color: wheat;
+       text-align: center;
+   }
+
+   h1 {
+       text-align: center;
+   }
+
+   .footer div {
+    border: 1px solid #90a4af;
+   }

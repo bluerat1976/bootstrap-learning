@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-learning",
+  "version": "1.0.0",
+  "description": "Bootstrap learning",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "scss": "./node_modules/node-sass/bin/node-sass --output-style compressed index.scss > styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluerat1976/bootstrap-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluerat1976/bootstrap-learning/issues"
+  },
+  "homepage": "https://github.com/bluerat1976/bootstrap-learning#readme"
+}
