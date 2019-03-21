@@ -12,7 +12,7 @@ body {
 }  
 
 [class*="col-"] {
-    padding: 8px;
+    padding: 6px;
     width: 100%;
 }
 
@@ -85,31 +85,44 @@ h4 {
 .banners img {
     max-width: 130px;
 }
+
 .footer {
+    display: flex;
+    flex-flow: column wrap;
     background-image: url(fon-1/Dark3.jpg);
+    border: none;
 }
 
-.footer div {
-    border: 1px solid #90a4af;
+.footer-up {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.block-nav-footer {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 3 1 200px;
+    align-content: flex-start;
+    padding: 15px 10px;
 }
 
 .nav-footer {
+    flex: 1 1 60px;
     color: #fcfa82;
-    margin: 5px;
+    margin: 6px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
+    text-align: center;
 }
 
-.footer p {
-    display: inline-block;
-    color: #dddddd;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 17px;
-    margin-top: 40px;
+.footer-form {
+    flex: 1 1 100px;
+    text-align: center;
+    padding: 15px 20px; 
 }
 
 .footer-form label{
-    color: #dddddd;
+    color: #ebebeb;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 19px;
 }
@@ -122,7 +135,7 @@ h4 {
     border-color: #97979b;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 13px;
-    margin-top: 9px;
+    margin-top: 15px;
 }
 
 .footer-form input[type='reset']:hover {
@@ -139,12 +152,23 @@ h4 {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
-    margin-top: 9px;
+    margin-top: 15px;
 }
 
 .footer-form input[type='submit']:hover {
     background-color: #4076c7;
     background-image: linear-gradient(#4076c7,#074477);
+}
+
+.copyright-box {
+    padding: 25px 50px;
+}
+
+.copyright-box p {
+    display: inline-block;
+    color: #e6e6e6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
 }
 
 $grid-breakpoints: (
