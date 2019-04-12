@@ -155,4 +155,6 @@ h4 {
   .container h1 {
     margin-top: 15px;
     margin-bottom: 18px;
-    font-size: 32px; } }
+    font-size: 36px; }
+  .banners h1 {
+    font-size: 28px; } }
