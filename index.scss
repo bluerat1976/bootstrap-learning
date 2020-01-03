@@ -172,9 +172,11 @@ h4 {
 }
 
 $grid-breakpoints: (
+    xs: 380px,
     sm: 576px,
     md: 768px,
     lg: 992px
+    xl: 1200px,
 );
 
 @media(min-width: 576px) {
