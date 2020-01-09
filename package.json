@@ -10,7 +10,7 @@
     "handlebars": "^4.1.2"
   },
   "scripts": {
-    "sass": "node-sass index.scss > index.css"
+    "scss": "node-sass index.scss > index.css"
   },
   "repository": {
     "type": "git",
